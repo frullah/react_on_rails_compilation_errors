@@ -1,0 +1,5 @@
+<% append_stylesheet_pack_tag("hello-world") %>
+<% append_javascript_pack_tag("hello-world") %>
+
+<h1>Hello World</h1>
+<%= react_component("HelloWorld", props: @hello_world_props, prerender: true) %>
