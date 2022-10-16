@@ -15,7 +15,7 @@ const configureServer = () => {
 
   // We just want the single server bundle entry
   const serverEntry = {
-    'server-bundle': serverWebpackConfig.entry['server-bundle'],
+    'server-bundle': serverWebpackConfig.entry['server-bundle-generated'],
   };
 
   if (!serverEntry['server-bundle']) {

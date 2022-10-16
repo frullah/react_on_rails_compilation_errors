@@ -30,3 +30,7 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# RoR file-system-based bundle generated files
+app/javascript/packs/generated/
+app/javascript/packs/server-bundle-generated.js
